@@ -17,8 +17,8 @@
 
 Étudiant en **Mastère Cybersécurité (Bac+5)** à l'**ESGI Paris**, spécialisé en **Systèmes, Réseaux & Sécurité Informatique**. Profil technique orienté **sécurité offensive** et **Blue Team**.
 
-- 🔭 Je travaille actuellement sur : **assembleur x64**, **Active Directory**, **reverse engineering**
-- 🌱 J'apprends : **Rust**, **analyse de malware**, **shellcoding**
+- 🔭 Je travaille actuellement sur : **SIEM Wazuh (détection & corrélation)**, **audit mobile Android (Frida)**, **chaîne offensive Git Secrets**
+- 🌱 J'apprends : **Rust**, **analyse de malware**, **shellcoding**, **IA appliquée à la cybersécurité**
 - 🎯 Mon objectif : décrocher une alternance en **SOC / CERT / Red-Blue Team**
 - 📫 Me contacter : **morelespoir03@gmail.com**
 - ⚡ Fun fact : je suis passionné de tactiques de football ⚽
@@ -33,13 +33,15 @@
 ![BurpSuite](https://img.shields.io/badge/BurpSuite-FF6633?style=flat&logo=burpsuite&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-00599C?style=flat&logo=nmap&logoColor=white)
+![Frida](https://img.shields.io/badge/Frida-E83E8C?style=flat&logo=frida&logoColor=white)
+![BloodHound](https://img.shields.io/badge/BloodHound-000000?style=flat&logo=bloodhound&logoColor=white)
 
 ### Systèmes & Infrastructure
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows_Server-0078D6?style=flat&logo=windows&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=flat&logo=vmware&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat&logo=virtualbox&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
@@ -63,9 +65,13 @@
 
 | Projet | Description | Stack |
 |--------|-------------|-------|
-| [**x64 Assembly Journey**](https://github.com/morelespoir-cyb/asm_tp) | 21 challenges d'assembleur x86-64 : syscalls, manipulation mémoire, sockets TCP/UDP, binary patching, chiffrement de César | `ASM` `GAS` `Linux` |
-| 🔜 **Active Directory Security Lab** | Lab offensif/défensif AD : Kerberoasting, AS-REP Roasting, Pass-the-Hash, avec contre-mesures | `Windows Server` `Kali` `pfSense` |
-| 🔜 **Git Secrets Offensive Chain** | Chaîne de reconnaissance, détection et exploitation de secrets exposés sur Git | `Python` `TruffleHog` `GitLeaks` |
+| [**Active Directory Hardening Lab**](https://github.com/morelespoir-cyb/active-directory-hardening-lab) | 7 TPs progressifs — déploiement AD, énumération BloodHound, audit PingCastle, plan de remédiation | `Windows Server` `Kali` `BloodHound` |
+| [**Infrastructure Proxmox + OPNSense**](https://github.com/morelespoir-cyb/partiel-lpic2-proxmox) | PoC d'infrastructure virtualisée — Proxmox, OPNSense, conteneurs LXC (AdGuard, Passbolt, Firefly III) | `Proxmox VE` `OPNSense` `LXC` |
+| [**Git Secrets — Offensive Chain**](https://github.com/morelespoir-cyb/git-secrets-offensive-chain) | Chaîne offensive end-to-end : reconnaissance, détection et exploitation de secrets exposés sur Git | `Python` `TruffleHog` `GitLeaks` |
+| [**Android Frida Audit — InsecureBankv2**](https://github.com/morelespoir-cyb/android-frida-audit-insecurebank) | Audit Android : reverse statique (jadx, MobSF) et instrumentation dynamique (Frida, Objection) | `Frida` `jadx` `MobSF` `Android` |
+| [**Tests Automatisés — Puissance 4**](https://github.com/morelespoir-cyb/esgi-td3-puissance4) | TDD avec pytest sur le jeu Puissance 4 — 13 tests passants | `Python` `pytest` `TDD` |
+| 🚧 [**TP Sécurité Python**](https://github.com/morelespoir-cyb/TP-securite-python) | Sécurité applicative Python — module 4A Sécurité *(en cours)* | `Python` `Scapy` |
+| 🔜 **SIEM Wazuh — Détection & Corrélation** | Infrastructure SIEM : détection de comportements suspects, corrélation d'événements, scénarios d'attaque | `Wazuh` `MITRE ATT&CK` `Sysmon` |
 
 *Plus de projets à venir — je publie au fur et à mesure de mes apprentissages.*
 
